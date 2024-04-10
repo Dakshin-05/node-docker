@@ -70,7 +70,7 @@ app.use(
 );
 
 app.get("/api/v1", (req, res) => {
-  res.send("<h2>Hello from Server</h2>");
+  res.send("<h2>Hello from Server successfully hosted in a remote server !!</h2>");
   console.log("Yeah it ran...");
 });
 
